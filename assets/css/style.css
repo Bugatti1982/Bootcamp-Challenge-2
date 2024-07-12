@@ -257,4 +257,8 @@ main {
     width: 25%;
     flex-direction: column;
   }
+
+  .contact{
+    flex-direction: column;
+  }
 }
