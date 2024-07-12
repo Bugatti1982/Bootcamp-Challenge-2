@@ -148,7 +148,7 @@ main {
   margin-bottom: 20px;
 }
 
-.flex-container {
+.flex-container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -221,24 +221,24 @@ main {
 
 /* portfolio project images */
 /* TODO: Add portfolio project images here*/
-#pic1{
+.surf-report{
   background-image: url("../images/Surf.jpg");
   
 }
 
-#pic2{
+.led-wall{
   background-image: url("../images/LED Wall.jpg");
 }
 
-#pic3{
+.react-calc{
   background-image: url("../images/Calculator.jpg");
 }
 
-#pic4{
+.pastel-puzzles{
   background-image: url("../images/Puzzel.jpg");
 }
 
-#pic5{
+.run-buddy{
   background-image: url("../images/Run.jpg");
 }
 
@@ -254,8 +254,16 @@ main {
 /* TODO: add media query for a max-width of 768px */
 @media screen and (max-width: 768px){
   .flex-container {
-    width: 25%;
     flex-direction: column;
+    width: 25%;
+  }
+
+  .flex-item{
+    min-height: 200px;
+  }
+
+   .flex-item:first-child{
+    min-height: 200px;
   }
 
   .contact{
